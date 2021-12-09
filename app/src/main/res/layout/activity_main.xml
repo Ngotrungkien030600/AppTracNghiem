@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9C27B0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:text="Quiz App"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:id="@+id/textview_high_score"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Điểm cao  : 100"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <Button
+        android:id="@+id/button_start_question"
+        android:textColor="@color/black"
+        android:backgroundTint="#F3EAF4"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>
